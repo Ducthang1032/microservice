@@ -1,4 +1,4 @@
-package tdt.intern.gateway;
+package ndt.project.gateway;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

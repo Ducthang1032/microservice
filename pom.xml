@@ -6,15 +6,19 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>3.1.0</version>
+        <version>2.4.4</version>
         <relativePath/>
     </parent>
+<!--    <properties>-->
+<!--        <java.version>11</java.version>-->
+<!--    </properties>-->
 
-    <groupId>ndt.project</groupId>
-    <artifactId>ndt.project</artifactId>
+    <groupId>microservice-api</groupId>
+    <artifactId>microservice-api</artifactId>
     <packaging>pom</packaging>
     <version>v1</version>
-    <name>ndt.project</name>
+    <name>microservice-api</name>
+    <description>NDT Microservice api</description>
 
     <modules>
         <module>discovery</module>

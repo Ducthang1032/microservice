@@ -1,7 +1,14 @@
-# Give a name to the eureka registry
+# Give a name to the eureka discovery
 spring:
   application:
-    name: eureka-registry
+    name: eureka-discovery
+
+logging:
+  level:
+    root: INFO
+    org.hibernate.SQL: INFO
+    ndt.project.discovery: INFO
+
 
 # default port for eureka registry
 server:
@@ -13,3 +20,5 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
+  server:
+    peer-node-read-timeout-ms: 5000 #ms ~ 5s
