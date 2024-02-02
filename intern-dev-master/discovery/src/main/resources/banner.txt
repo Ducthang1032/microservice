@@ -1,0 +1,9 @@
+${AnsiColor.BRIGHT_CYAN}  _   _   _____    _______       _____    _
+${AnsiColor.BRIGHT_CYAN} | \ | | |  __ \  |__   __|     |  __ \  (_)
+${AnsiColor.BRIGHT_CYAN} |  \| | | |  | |    | |        | |  | |  _   ___    ___    ___   __   __   ___   _ __   _   _
+${AnsiColor.BRIGHT_CYAN} | . ` | | |  | |    | |        | |  | | | | / __|  / __|  / _ \  \ \ / /  / _ \ | '__| | | | |
+${AnsiColor.BRIGHT_CYAN} | |\  | | |__| |    | |        | |__| | | | \__ \ | (__  | (_) |  \ V /  |  __/ | |    | |_| |
+${AnsiColor.BRIGHT_CYAN} |_| \_| |_____/     |_|        |_____/  |_| |___/  \___|  \___/    \_/    \___| |_|     \__, |
+${AnsiColor.BRIGHT_CYAN}                                                                                          __/ |
+${AnsiColor.BRIGHT_CYAN}                                                                                         |___/
+${AnsiColor.BRIGHT_CYAN} NDT - Discovery - Powered by Spring Boot ${spring-boot.version}

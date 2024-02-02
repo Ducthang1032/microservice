@@ -1,0 +1,15 @@
+# Give a name to the eureka registry
+spring:
+  application:
+    name: eureka-registry
+
+# default port for eureka registry
+server:
+  port: 8761
+
+  # eureka by default will register itself as a client. So, we need to set it to false.
+  # What's a client registry? See other microservices (image, gallery, auth, etc).
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
