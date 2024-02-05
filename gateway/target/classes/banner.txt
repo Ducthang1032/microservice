@@ -1,9 +1,0 @@
-${AnsiColor.BRIGHT_CYAN}  _   _   _____    _______             _____           _
-${AnsiColor.BRIGHT_CYAN} | \ | | |  __ \  |__   __|           / ____|         | |
-${AnsiColor.BRIGHT_CYAN} |  \| | | |  | |    | |     ______  | |  __    __ _  | |_    ___  __      __   __ _   _   _
-${AnsiColor.BRIGHT_CYAN} | . ` | | |  | |    | |    |______| | | |_ |  / _` | | __|  / _ \ \ \ /\ / /  / _` | | | | |
-${AnsiColor.BRIGHT_CYAN} | |\  | | |__| |    | |             | |__| | | (_| | | |_  |  __/  \ V  V /  | (_| | | |_| |
-${AnsiColor.BRIGHT_CYAN} |_| \_| |_____/     |_|              \_____|  \__,_|  \__|  \___|   \_/\_/    \__,_|  \__, |
-${AnsiColor.BRIGHT_CYAN}                                                                                        __/ |
-${AnsiColor.BRIGHT_CYAN}                                                                                       |___/
-${AnsiColor.BRIGHT_CYAN} NDT - Gateway - Powered by Spring Boot ${spring-boot.version}

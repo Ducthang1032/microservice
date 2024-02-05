@@ -7,12 +7,6 @@
         <groupId>microservice-api</groupId>
         <version>v1</version>
     </parent>
-<!--    <parent>-->
-<!--        <groupId>org.springframework.boot</groupId>-->
-<!--        <artifactId>spring-boot-starter-parent</artifactId>-->
-<!--        <version>3.1.0</version>-->
-<!--        <relativePath/> &lt;!&ndash; lookup parent from repository &ndash;&gt;-->
-<!--    </parent>-->
 
     <groupId>ndt.project</groupId>
     <artifactId>discovery</artifactId>
