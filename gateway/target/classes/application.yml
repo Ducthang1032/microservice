@@ -19,9 +19,9 @@ eureka:
 zuul:
   ignored-services: "*"
   routes:
-    gallery-service:
-      path: /gallery/**
-      service-id: gallery-service
+    auth-service:
+      path: /auth/**
+      service-id: auth-service
     image-service:
       path: /images/**
       service-id: image-service
