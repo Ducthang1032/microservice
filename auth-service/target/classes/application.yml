@@ -10,3 +10,6 @@ eureka:
 app:
   rest-template:
     connect-timeout: 30000 #ms
+
+google:
+  sec

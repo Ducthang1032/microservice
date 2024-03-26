@@ -1,6 +1,15 @@
 spring:
   application:
     name: auth-service
+  datasource:
+    url: jdbc:postgresql://10.1.20.169:5432/microservice
+    username: postgres
+    password: Tdt@6868
+  messages:
+    basename: i18n/messages
+  data:
+    mongodb:
+      uri: mongodb://admin:tdt%406868@10.1.20.212:27017/springboot
 server:
   port: 8100
 eureka:

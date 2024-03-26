@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a3e56bf4-241b-42c9-9c0b-b926302212d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/controller/BaseController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/controller/DecryptEnCryptController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/domain/AbstractAuditing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/domain/BrandSQL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/domain/SystemRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/domain/SystemSetting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/domain/UserEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/dto/ConfirmEmailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/dto/LoginOtpDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/dto/LoginResponseDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/dto/RefreshTokenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/dto/RefreshTokenReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/dto/ResMDLogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/dto/TokenInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/dto/UserLoginDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/dto/UserRegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/errors/CustomBadCredentialsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/errors/EncodingDataInvalidException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/errors/ExceptionTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/repository/BrandRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/repository/SystemRoleRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/repository/SystemSettingRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/security/CustomAuthenticationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/security/JwtTokenProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/security/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/service/AESService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/service/CacheableService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/service/RedisAuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/service/SendMailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/service/ValidationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/constants/AuthoritiesConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/constants/CommonConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/constants/DateTimeFormat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/constants/EmailConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/constants/NumberConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/constants/OTPConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/constants/RegexConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/dto/MetaDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/dto/ResponseMetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/enums/LoginType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/enums/MetaData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/enums/SendEmailOtpType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/enums/SystemRoleType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/enums/UserStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/utils/DateTimeUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/utils/EmailUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/utils/NumberUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/utils/PasswordUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/utils/RedisKeyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/common/src/main/java/ndt/project/common/utils/SecurityUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/config/AuthConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/config/AuthConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice/controller/HomeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/auth-service/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/ndt/project/authservice/AuthService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/ndt/project/authservice/config/AuthConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/ndt/project/authservice/config/RestTemplateConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/ndt/project/authservice/controller/HomeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/auth-service/target/classes/ndt/project/authservice/entity/Gallery.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/target/classes/ndt/project/discovery/Discovery.class" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/target/classes/ndt/project/discovery/Discovery.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/target/classes/ndt/project/discovery/errors/ExceptionTranslator.class" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/target/classes/ndt/project/discovery/errors/ExceptionTranslator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/target/classes/ndt/project/gateway/Gateway.class" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/target/classes/ndt/project/gateway/Gateway.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLabMergeRequestsSettings">{}</component>
+  <component name="GithubPullRequestsUISettings">{}</component>
+  <component name="KubernetesApiProvider">{}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2daOT8ZMm4ORqe1OXOoh6Zco9aZ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/eco0682-thangnd/Documents/GitHub/microservice/auth-service/src/main/java/ndt/project/authservice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.configurations.included.in.services&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/auth-service/src/main/java/ndt/project/authservice" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ndt.project.authservice.dto" />
+      <recent name="ndt.project.common.enums" />
+      <recent name="ndt.project.authservice.repository" />
+      <recent name="ndt.project.authservice.domain" />
+      <recent name="ndt.project.common.utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Discovery">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="microservice" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="microservice" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthService" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="auth-service" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ndt.project.authservice.AuthService" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Discovery" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="discovery" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ndt.project.discovery.Discovery" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Gateway" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ndt.project.gateway.Gateway" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ImageApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="image" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="tdt.intern.image.ImageApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.158" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.158" />
+        <option value="jdk-17.0.10-corretto-17.0.10-27dd13112750-95c90a19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a3e56bf4-241b-42c9-9c0b-b926302212d0" name="Changes" comment="" />
+      <created>1710242728182</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710242728182</updated>
+      <workItem from="1710242729384" duration="8777000" />
+      <workItem from="1710297164368" duration="647000" />
+      <workItem from="1710383867699" duration="9998000" />
+      <workItem from="1710482707447" duration="6433000" />
+      <workItem from="1710572155122" duration="3336000" />
+      <workItem from="1710729591851" duration="715000" />
+      <workItem from="1711075325232" duration="15135000" />
+      <workItem from="1711420358225" duration="2514000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
